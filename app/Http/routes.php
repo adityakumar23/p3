@@ -11,10 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    #return view('welcome');
-    return 'Welcome to P3';
-});
 
 /*
 |--------------------------------------------------------------------------
@@ -29,4 +25,10 @@ Route::get('/', function () {
 
 Route::group(['middleware' => ['web']], function () {
     //
+
+    Route::get('/', 'LoremipsumController@getIndex');
+    Route::get('/loremipsum', 'LoremipsumController@getText');
+    Route::post('/loremipsum','LoremipsumController@postText');
+    Route::get('/usergenerator', 'LoremipsumController@getUser');
+    Route::post('/usergenerator', 'LoremipsumController@postUser');
 });
