@@ -1,5 +1,6 @@
 @extends('layouts.master')
 
+@section('content')
     <h1> Developer's Best Friend </h1> <br>
     <h2> Lorem Ipsum Generator </h2> <br>
     <p> In publishing and graphic design, lorem ipsum is a placeholder text
@@ -15,3 +16,4 @@
     <p> Create random user data. </p>
 
     <a href='usergenerator'> Generate users... </a>
+@stop

@@ -1,5 +1,6 @@
 @extends('layouts.master')
 
+@section('content')
 <h1> LOREM IPSUM GENERATOR </h1>
 <h2> number of paragraphs </h2>
 
@@ -11,3 +12,9 @@
     <input type="submit" value="Get">
 
 </form>
+
+@foreach($errors->all() as $error)
+    {{ $error }}<br>
+@endforeach
+
+@stop
