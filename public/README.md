@@ -1,4 +1,4 @@
-#Developer's Best Friemd
+#Developer's Best Friend
 
 ##Live URL
 http://p3.adityak.me/
@@ -8,7 +8,7 @@ This is a web application called Developer's Best Friend which includes a Lorem 
 
 
 ##Demo
-
+http://screencast.com/t/oFYGKLbUr
 
 ##Details for teaching team
 No login required
