@@ -8,7 +8,7 @@ This is a web application called Developer's Best Friend which includes a Lorem 
 
 
 ##Demo
-http://screencast.com/t/dAu7HVv6S
+
 
 ##Details for teaching team
 No login required
@@ -20,4 +20,3 @@ User generator: p3.adityak.me/usergenerator
 
 ##Outside Code
 None
-
