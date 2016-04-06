@@ -15,5 +15,5 @@
     <h2> Random user generator </h2>
     <p> Create random user data. </p>
 
-    <a href='usergenerator'> Generate users... </a>
+    <a href='/usergenerator'> Generate users... </a>
 @stop

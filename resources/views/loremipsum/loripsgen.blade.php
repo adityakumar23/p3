@@ -1,20 +1,20 @@
 @extends('layouts.master')
 
 @section('content')
-<h1> LOREM IPSUM GENERATOR </h1>
-<h2> number of paragraphs </h2>
+    <h1> LOREM IPSUM GENERATOR </h1>
 
-<form method = 'POST' action='/loremipsum'>
-    {{csrf_field()}}
-    <label> Paragraphs </label>
-    <input maxlength="2" name="length" type="text">
-    <br>
-    <input type="submit" value="Get">
+    <a href='/'> Home </a> <br>
+    <form method = 'POST' action='/loremipsum'>
+        {{csrf_field()}}
+        <label> Paragraphs (max 23) </label>
+        <input maxlength="2" name="length" type="text">
+        <br>
+        <input type="submit" value="Get"> <br>
 
-</form>
+    </form> <br>
 
-@foreach($errors->all() as $error)
-    {{ $error }}<br>
-@endforeach
+    @foreach($errors->all() as $error)
+        {{ $error }}<br>
+    @endforeach
 
 @stop

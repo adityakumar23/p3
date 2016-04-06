@@ -1,10 +1,12 @@
 @extends('layouts.master')
 
 @section('content')
-<h1> LOREM IPSUM GENERATOR </h1>
+    <h1> LOREM IPSUM GENERATOR </h1>
 
-@foreach($para as $paratext):
-    {{ $paratext }}<br>
-@endforeach
+    <a href='/loremipsum'> Generate more text</a>
+    <a href='/'> Home </a> <br>
+    @foreach($para as $paratext)
+        {{ $paratext }}<br>
+    @endforeach
 
 @stop
